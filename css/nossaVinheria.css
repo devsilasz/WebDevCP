@@ -46,13 +46,17 @@ i{
 section{
     height: 700px;
     display: flex;
-    margin-top: 20px;
+    justify-content: space-between;
 }
 
 .item {
-    flex: 1; 
-    margin: 10px; 
+    width: 49%;
 }
+
+section article:nth-child(2) {
+    display: flex;
+    align-items: center; 
+  }
 
 #article-img{
     display: flex;

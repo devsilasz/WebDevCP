@@ -97,8 +97,12 @@ section{
     background-color: #e2e0e0;
     height: 100%;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
+    justify-content: center;
     align-items: center;
+}
+
+.compra:hover{
+    cursor: pointer;
 }
 
 
