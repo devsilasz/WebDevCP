@@ -47,30 +47,32 @@ i{
 
 section{
     height: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 
 .vinhos{
-    height: 420px;
+    height: 40%;
     border: 3px solid black;
     background-image: url('../imgs/vinhosM.jpeg');
     background-size: cover; /* Redimensiona a imagem para preencher toda a section */
     background-position: center; /* Centraliza a imagem na section */
-   
     display: flex;
     justify-content: center; /* Centraliza conteúdo verticalmente */
     align-items: center;
 }
 
 .container-produtos{
+    height: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .box {
     width: 250px; 
     height: 300px; 
     border: 2px solid black;
-    margin: 40px 70px; 
     display: flex;
     justify-content: center;
     flex-direction: column;
