@@ -3,7 +3,7 @@ function entrar() {
     var senha = document.getElementById("senha").value;
 
     if (login === "1234" && senha === "1234") {
-        window.location.replace("../index.html");
+        window.location.href = "./index.html";
         alert("Bem Vindo!");
         
     
