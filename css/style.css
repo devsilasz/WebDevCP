@@ -52,6 +52,13 @@ section{
 .vinhos{
     height: 420px;
     border: 3px solid black;
+    background-image: url('../imgs/vinhosM.jpeg');
+    background-size: cover; /* Redimensiona a imagem para preencher toda a section */
+    background-position: center; /* Centraliza a imagem na section */
+   
+    display: flex;
+    justify-content: center; /* Centraliza conteúdo verticalmente */
+    align-items: center;
 }
 
 .container-produtos{
