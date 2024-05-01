@@ -14,7 +14,6 @@
 
 <body>
     <header>
-
         <div class="titulo">
             <center>
                 <p class="nome">Vinheria Agnello</p>
@@ -31,9 +30,9 @@
                 <a href="assinatura.html">Assinatura</a>
                 <i class="material-icons">search</i>
                 <i class="material-icons">shopping_cart</i>
+                <a href="sugestao Manus.html">Sugestões</a> 
             </center>
         </nav>
-
     </header>
 
     <section>
@@ -57,7 +56,6 @@
                 <p>Harmonização: Culinária Japonesa, Peixes, Sobremesas </p>
                 <p>Uva: Barbera </p>
                 <p>Temperatura de serviço: 8° a 10°C </p>
-
             </p>
             <h3>Valor por unidade: R$169,90</h3>
             <label for="qtdGarrafa">Coloque o número de garrafas desejadas: </label>
@@ -68,7 +66,7 @@
             <button onclick="addDesconto()">Calcular</button>
             <div id="valorcomdesc"></div>
             <button onclick="carrinho()">Adicionar ao carrinho</button>
-
+            <button onclick="sugestao()">Sugestão de Comidas</button>
         </article>
     </section>
 
@@ -80,6 +78,12 @@
         E-mail:
         <p>vinheriaagnelo@gmail.com</p>
     </footer>
+
+    <script>
+        function sugestao() {
+            window.location.href = "sugestao Manus.html";
+        }
+    </script>
 </body>
 
 </html>

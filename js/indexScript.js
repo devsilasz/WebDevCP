@@ -7,5 +7,5 @@ function comprar2(){
 }
 
 function comprar3(){
-    window.location.href = "./Manus Liberum Barbera Clairet Rosé.html"
+    window.location.href = "./vinhomanus.html"
 }
